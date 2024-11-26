@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Passive ID="1">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>PlayerMelukoAlbionRemnant</Script>
+    <Name>Melusine - Remnant of Albion</Name>
+    <Desc>This character possesses 2 decks, which are treated as separate forms and confers various buffs. At emotion level 3+, add Ray Horizon to the personal EGO hand that can be used to enter the second form. 
+
+Upon taking lethal damage in the first form, prevent HP from falling below 1 for the Scene, and then forcibly recover from stagger and transform yourself into the second form with 40 HP the next Scene. 
+
+Otherwise, restore 20 HP, recover from Stagger and refill all light at the start of the next Scene. This death prevention is shared across both forms and only activates once per Act.
+</Desc>
+  </Passive>
+  <Passive ID="2">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>PlayerMelukoDragonHeart</Script>
+    <Name>Dragon Heart</Name>
+    <Desc>All resistances are fixed to Normal unless staggered. Take 2-3 less damage and stagger damage (Including damage from non-attacks). At emotion level 3+, gain 1 extra light and draw 1 additional page at the start of each Scene. </Desc>
+  </Passive>
+  <Passive ID="3">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>PlayerMelukoPerryDancer</Script>
+    <Name>Perry Dancer</Name>
+    <Desc> All dice gain +1 minimum and maximum roll value. At the start of each Scene, apply {Azure Mark} on the lowest HP enemy for the Scene. 
+
+Gain 1 stack of {Momentum} upon winning a clash and hitting targets with {Azure Mark}. Lose 1 stack of {Momentum} upon being hit. 
+
+For every 5 stacks of {Momentum}, gain 1 Haste every Scene and deal 10% more damage with attacks. This effect can stack up to 6 times. 
+
+From the second Act onwards, start with 10 stacks of {Momentum}.
+</Desc>
+  </Passive>
+  <Passive ID="4">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>PlayerLakeLight</Script>
+    <Name>Innocent Lake's Light</Name>
+    <Desc>Add Innocence Arondight to the personal EGO hand. All dice gain +1 power. For every 10 stacks of {Momentum}, add an unbreakable Evade (6-9) to your counter queue every Scene. Evade dice are retained when clashing against defensive dice. 
+</Desc>
+  </Passive>
+  <Passive ID="5">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>PlayerCalamityOfFlames</Script>
+    <Name>Calamity of Flames</Name>
+    <Desc>Add Hollow Heart Albion to the personal EGO hand. All offensive dice gain +1 power, and gain +2 more power against targets with inflicted with Burn. For every 10 stacks of {Momentum}, gain 1 Strength, Protection, Stagger Protection, and Damage Up. </Desc>
+  </Passive>
+</PassiveXmlRoot>
