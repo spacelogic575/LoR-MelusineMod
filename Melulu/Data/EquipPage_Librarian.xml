@@ -7,7 +7,7 @@
     <BookIcon />
     <EquipEffect>
       <HpReduction>0</HpReduction>
-      <HP>100</HP>
+      <HP>125</HP>
       <DeadLine>0</DeadLine>
       <Break>50</Break>
       <SpeedMin>4</SpeedMin>
@@ -19,14 +19,13 @@
       <SBResist>Normal</SBResist>
       <PBResist>Normal</PBResist>
       <HBResist>Normal</HBResist>
-      <MaxPlayPoint>7</MaxPlayPoint>
+      <MaxPlayPoint>4</MaxPlayPoint>
       <StartPlayPoint>4</StartPlayPoint>
       <AddedStartDraw>0</AddedStartDraw>
       <Passive Pid="@origin">10008</Passive>
       <Passive>1</Passive>
       <Passive>2</Passive>
       <Passive>3</Passive>
-      <Passive>4</Passive>
     </EquipEffect>
     <Rarity>Unique</Rarity>
     <CharacterSkin>Pameli</CharacterSkin>

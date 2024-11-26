@@ -5,7 +5,7 @@
     <IsHide>false</IsHide>
     <Rarity>Unique</Rarity>
     <Lock>false</Lock>
-    <CanGivePassive>true</CanGivePassive>
+    <CanGivePassive>false</CanGivePassive>
     <CanReceivePassive>false</CanReceivePassive>
     <InnerType>-1</InnerType>
     <Cost>0</Cost>
@@ -23,7 +23,7 @@ Otherwise, restore 20 HP, recover from Stagger and refill all light at the start
     <IsHide>false</IsHide>
     <Rarity>Unique</Rarity>
     <Lock>false</Lock>
-    <CanGivePassive>true</CanGivePassive>
+    <CanGivePassive>false</CanGivePassive>
     <CanReceivePassive>false</CanReceivePassive>
     <InnerType>-1</InnerType>
     <Cost>0</Cost>
@@ -36,7 +36,7 @@ Otherwise, restore 20 HP, recover from Stagger and refill all light at the start
     <IsHide>false</IsHide>
     <Rarity>Unique</Rarity>
     <Lock>false</Lock>
-    <CanGivePassive>true</CanGivePassive>
+    <CanGivePassive>false</CanGivePassive>
     <CanReceivePassive>false</CanReceivePassive>
     <InnerType>-1</InnerType>
     <Cost>0</Cost>
@@ -56,7 +56,7 @@ From the second Act onwards, start with 10 stacks of {Momentum}.
     <IsHide>false</IsHide>
     <Rarity>Unique</Rarity>
     <Lock>false</Lock>
-    <CanGivePassive>true</CanGivePassive>
+    <CanGivePassive>false</CanGivePassive>
     <CanReceivePassive>false</CanReceivePassive>
     <InnerType>-1</InnerType>
     <Cost>0</Cost>
@@ -70,7 +70,7 @@ From the second Act onwards, start with 10 stacks of {Momentum}.
     <IsHide>false</IsHide>
     <Rarity>Unique</Rarity>
     <Lock>false</Lock>
-    <CanGivePassive>true</CanGivePassive>
+    <CanGivePassive>false</CanGivePassive>
     <CanReceivePassive>false</CanReceivePassive>
     <InnerType>-1</InnerType>
     <Cost>0</Cost>

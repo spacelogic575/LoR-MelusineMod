@@ -6,6 +6,7 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
+	<Option>EgoPersonal</Option>
     <Spec Range="Far" Cost="3" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
@@ -29,6 +30,7 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
+	<Option>EgoPersonal</Option>
     <Spec Range="FarArea" Cost="0" Affection="Team" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
@@ -41,7 +43,7 @@
     <SkinChangeType>EGO</SkinChangeType>
     <SkinHeight>0</SkinHeight>
     <MapChange />
-    <Priority>0</Priority>
+    <Priority>11</Priority>
     <PriorityScript />
     <Category>None</Category>
     <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
@@ -52,11 +54,13 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
+	<Option>Personal</Option>
+	<Option>ExhaustOnUse</Option>
     <Spec Range="Instance" Cost="0" Affection="One" EmotionLimit="0" />
-    <Script />
+    <Script>RayHorizon</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="1" Dice="1" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="10" Dice="15" Type="Standby" Detail="Block" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
