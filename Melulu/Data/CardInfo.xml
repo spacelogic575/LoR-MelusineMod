@@ -6,7 +6,7 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
-	<Option>EgoPersonal</Option>
+    <Option>EgoPersonal</Option>
     <Spec Range="Far" Cost="3" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
@@ -30,8 +30,8 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
-	<Option>EgoPersonal</Option>
-    <Spec Range="FarArea" Cost="0" Affection="Team" EmotionLimit="0" />
+    <Option>EgoPersonal</Option>
+    <Spec Range="FarArea" Cost="6" Affection="Team" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
     <BehaviourList>
@@ -54,13 +54,34 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
-	<Option>Personal</Option>
-	<Option>ExhaustOnUse</Option>
+    <Option>Personal</Option>
+    <Option>ExhaustOnUse</Option>
     <Spec Range="Instance" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>RayHorizon</Script>
     <ScriptDesc />
+    <BehaviourList />
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="4">
+    <Name>Avoidance Instincts</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="10" Dice="15" Type="Standby" Detail="Block" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="AvoidanceInstincts" ActionScript="" Desc="This dice cannot be destroyed." />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
