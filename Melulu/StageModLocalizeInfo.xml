@@ -14,7 +14,7 @@
 		<BattleEffectTextInfo Exist="true">
 			<Path>\LocalizeBase\{0}\EffectTexts</Path>
 		</BattleEffectTextInfo>
-		<BookDescInfo Exist="true">
+		<BookDescInfo Exist="false">
 			<Path>\LocalizeBase\{0}\Books</Path>
 		</BookDescInfo>
 		<CharacterNameInfo Exist="false">
@@ -54,7 +54,7 @@ example here:
 		<BufIconInfo Enable="true">
 			<Path>\Resource\BufIcons</Path>
 		</BufIconInfo>
-		<StoryIconInfo Enable="true" IconGlowPostfix="_Glow">
+		<StoryIconInfo Enable="false" IconGlowPostfix="_Glow">
 			<Path>\Resource\StoryIcons</Path>
 		</StoryIconInfo>
 	</ExtraFile>

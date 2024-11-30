@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
   <Card ID="1">
     <Name>Innocence Arondight</Name>
     <TextId>-1</TextId>
@@ -203,7 +204,7 @@
       <Behaviour Min="6" Dice="12" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="10" Dice="18" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="drawCard1atk" ActionScript="" Desc="" />
     </BehaviourList>
-    <Chapter>1</Chapter>
+    <Chapter>7</Chapter>
     <SpecialEffect />
     <SkinChange />
     <SkinChangeType>EGO</SkinChangeType>
@@ -220,7 +221,7 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
-    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script>black_4th_afterimage</Script>
     <ScriptDesc />
     <BehaviourList>
@@ -229,7 +230,7 @@
       <Behaviour Min="3" Dice="4" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="repeat3" ActionScript="" Desc="" />
       <Behaviour Min="6" Dice="8" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
     </BehaviourList>
-    <Chapter>1</Chapter>
+    <Chapter>7</Chapter>
     <SpecialEffect />
     <SkinChange />
     <SkinChangeType>EGO</SkinChangeType>

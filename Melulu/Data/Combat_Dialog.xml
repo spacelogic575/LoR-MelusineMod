@@ -15,4 +15,11 @@
     <Type ID="COLLEAGUE_DEATH" />
     <Type ID="KILLS_OPPONENT" />
   </Character>
+  <Character ID="3">
+    <Type ID="START_BATTLE" />
+    <Type ID="BATTLE_VICTORY" />
+    <Type ID="DEATH" />
+    <Type ID="COLLEAGUE_DEATH" />
+    <Type ID="KILLS_OPPONENT" />
+  </Character>
 </BattleDialogRoot>
