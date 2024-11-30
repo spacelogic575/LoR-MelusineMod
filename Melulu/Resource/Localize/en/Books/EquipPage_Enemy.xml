@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Book ID="1">
+    <Name>Tam Lin Lancelot</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>1</HP>
+      <DeadLine>0</DeadLine>
+      <Break>400</Break>
+      <SpeedMin>6</SpeedMin>
+      <Speed>9</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Normal</SResist>
+      <PResist>Normal</PResist>
+      <HResist>Normal</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Normal</HBResist>
+      <MaxPlayPoint>9</MaxPlayPoint>
+      <StartPlayPoint>5</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>Zwei_Yellow</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="2">
+    <Name>Melusine, Remnant of Albion</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>750</HP>
+      <DeadLine>0</DeadLine>
+      <Break>500</Break>
+      <SpeedMin>5</SpeedMin>
+      <Speed>10</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Endure</SResist>
+      <PResist>Endure</PResist>
+      <HResist>Endure</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Normal</HBResist>
+      <MaxPlayPoint>9</MaxPlayPoint>
+      <StartPlayPoint>9</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>TwistPhilip</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+</BookXmlRoot>
