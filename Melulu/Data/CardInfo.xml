@@ -4,7 +4,7 @@
   <Card ID="1">
     <Name>Innocence Arondight</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>EGO_InnocenceArondight.png</Artwork>
     <Rarity>Unique</Rarity>
     <Option>EgoPersonal</Option>
     <Spec Range="Far" Cost="3" Affection="One" EmotionLimit="0" />
@@ -73,9 +73,9 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="4">
-    <Name>Swift Instincts</Name>
+    <Name>Evasive Maneuvers</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>SwiftInstincts.png</Artwork>
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
     <Script />
@@ -96,9 +96,9 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="5">
-    <Name>OPEconomyCard</Name>
+    <Name>Aurora's Blessing</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Aurora.jpg</Artwork>
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>drawAndEnergy</Script>
@@ -120,7 +120,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="6">
-    <Name>EconomyCard2</Name>
+    <Name>Rousing Flames</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Common</Rarity>
@@ -144,7 +144,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="7">
-    <Name>BasicAttackCard</Name>
+    <Name>Flashing Strikes</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Uncommon</Rarity>
@@ -168,15 +168,15 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="8">
-    <Name>BigDrawCard</Name>
+    <Name>Arondight - Riposte</Name>
     <TextId>-1</TextId>
     <Artwork />
-    <Rarity>Rare</Rarity>
+    <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>drawCard2</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="7" Dice="10" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="14" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="7" Dice="14" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="damage5atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
@@ -192,7 +192,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="9">
-    <Name>BigRefundAttackCard</Name>
+    <Name>Flurry of Punches</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
@@ -200,8 +200,8 @@
     <Script>energy1</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="6" Dice="12" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="6" Dice="12" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="12" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="12" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="10" Dice="18" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="drawCard1atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
@@ -217,7 +217,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="10">
-    <Name>SuperBigCard</Name>
+    <Name>Perry Dancer - Thousand Cuts</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>

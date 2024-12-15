@@ -12,7 +12,7 @@
 			<Path>\LocalizeBase\{0}\BattleDialogues</Path>
 		</BattleDialogInfo>
 		<BattleEffectTextInfo Exist="true">
-			<Path>\LocalizeBase\{0}\EffectTexts</Path>
+			<Path>Resource\Localize\{0}\EffectTexts</Path>
 		</BattleEffectTextInfo>
 		<BookDescInfo Exist="false">
 			<Path>\LocalizeBase\{0}\Books</Path>

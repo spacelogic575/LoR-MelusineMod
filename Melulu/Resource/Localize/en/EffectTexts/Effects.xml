@@ -2,16 +2,12 @@
 <BattleEffectTextRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <effectTextList>
     <BattleEffectText ID="Momentum">
-      <Name>Momentum</Name>
-      <Desc>Used for certain passives and pages. {0}</Desc>
+      <Name>Momentum - {0}</Name>
+      <Desc>Used for certain passives and pages. Currently held:{0}</Desc>
     </BattleEffectText>
 	<BattleEffectText ID="AzureMark">
       <Name>Azure Mark</Name>
       <Desc>This character takes 25% more damage from Melusine. {0}</Desc>
-    </BattleEffectText>
-    <BattleEffectText ID="CardBuf_BingazeCard">
-      <Name>Test</Name>
-      <Desc>Card Buf Test</Desc>
     </BattleEffectText>
   </effectTextList>
 </BattleEffectTextRoot>
